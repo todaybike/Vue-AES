@@ -5,7 +5,9 @@
   ],
   "linterOptions": {
     "exclude": [
-      "node_modules/**"
+      "node_modules/**",
+			"src/components/HAes.ts",
+			"src/components/Aes.ts"
     ]
   },
   "rules": {
@@ -14,6 +16,7 @@
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+		"no-console" : false
   }
 }

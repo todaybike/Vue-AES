@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "dev": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -19,7 +20,9 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
+    "axios": "^0.18.0",
     "fibers": "^3.1.1",
+    "module-alias": "^2.2.0",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
     "typescript": "^3.2.1",
